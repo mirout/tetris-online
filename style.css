@@ -1,0 +1,60 @@
+body {
+	background-color: #f4f4f4;
+	padding: 0px;
+	margin: 0px;
+}
+header {
+	width: 100%;
+	background-color: #2c0f2d /*#1c0007 #4e102a*/;
+	color: white;
+	display:flex;
+	justify-content:space-between;
+	flex-direction: row;
+	align-items: center;
+}
+header div.name {
+	margin:0;
+	padding: 15px;
+	font-size: 20pt;
+
+}
+header div {
+	margin:0;
+	padding: 15px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+.name {
+	font-family: 'Gugi', cursive;
+}
+.all_game {
+	display:flex;
+	justify-content:space-around;
+	flex-direction: row;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+.programme {
+	padding: 10px;
+	background-color: #E8E8E8;
+	width: 30%;
+	margin-top: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+	border-radius: 10px;
+}
+.author {
+	text-align: right;
+}
+footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+	border-top: 2px solid #888888;
+	width: 100%;
+	padding: 10px;
+}
