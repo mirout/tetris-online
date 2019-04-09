@@ -100,7 +100,7 @@ function Field() {
 	this.checkPossibleMoveLeft = function () {
 		for (let i = 0; i<this.figure.figure.length; i++) {
 			for (let j = 0; j<this.figure.figure[i].length; j++) {
-				if (this.figure.figure[i][j] && (!i || !this.figure.figure[i-1][j])) {
+				if (this.figure.figure[i][j]) {
 					if (this.field[2+this.figure.y+i][1+this.figure.x+(j-1)]) { // +2 из-за того что создан барьер из двух клеток
 						return false;
 					}

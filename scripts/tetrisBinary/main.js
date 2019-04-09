@@ -447,8 +447,8 @@ game.newLoopFromConstructor("multiGame", function () {
 				} else if (scoreOpponent<score) {
 					textWin.text = "Вы выйграли"
 				} else {
-					textWin.text = "Ничья"
-				}
+				ext = "Ничья"
+				}game.startLoop('mainMenu');
 				textWin.positionC = point(game.getWH2().w, game.getWH2().h)
 				textWin.draw()
 			}
